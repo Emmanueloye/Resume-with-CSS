@@ -53,6 +53,14 @@ body {
   color: #d8efd3;
   text-align: center;
 }
+.section-color h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section-color p {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
 .service-desc {
   margin: 20px auto;
   width: 50%;
