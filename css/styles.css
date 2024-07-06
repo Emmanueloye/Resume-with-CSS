@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d8efd3;
+}
+/* Nav styles */
+.nav {
+  display: block;
+  background-color: #55ad9b;
+  text-align: center;
+  padding: 20px 10px;
+}
+.nav a {
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #f1f8e8;
+}
+/* End nav styles */
+
+/* About section styles */
+#about {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+#about h2 {
+  color: #55ad9b;
+  margin-bottom: 20px;
+}
+#about p {
+  line-height: 2;
+}
+#about img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #55ad9b;
+  border-radius: 50%;
+}
+/* End about section styles */
+
+/*  Service styles*/
+.section-color {
+  background-color: #55ad9b;
+  padding: 10px;
+  text-align: center;
+}
+.section-color h2 {
+  color: #d8efd3;
+  text-align: center;
+}
+.service-desc {
+  margin: 20px auto;
+  width: 50%;
+  line-height: 2;
+}
+.section-color div {
+  display: inline-block;
+  border: 2px solid #d8efd3;
+  color: #d8efd3;
+  font-weight: 600;
+  padding: 20px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  width: 50%;
+}
+
+/* End of service styles */
+
+/* Portfolio section styles */
+.section {
+  text-align: center;
+  margin: auto;
+}
+.section img {
+  width: 300px;
+  height: 300px;
+}
+/* End portfolio styles */
+
+/* Contact section styles */
+form {
+  border: 3px solid #d8efd3;
+  width: 50%;
+  margin: auto;
+}
+label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+input,
+textarea {
+  border: 2px solid #d8efd3;
+  padding: 5px 8px;
+  outline: none;
+}
+button {
+  display: block;
+  background-color: #d8efd3;
+  border: none;
+  border-radius: 5px;
+  color: #55ad9b;
+  font-weight: 600;
+  margin: 20px auto;
+  padding: 8px 20px;
+}
+/* End of contact service */
+
+/* Footer */
+.section {
+  margin-top: 30px;
+}
+.footer {
+  padding: 30px;
+}
+.footer p {
+  margin-top: 20px;
+}
